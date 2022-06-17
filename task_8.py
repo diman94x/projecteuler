@@ -26,16 +26,18 @@ def task_8():
                  84580156166097919133875499200524063689912560717606
                  05886116467109405077541002256983155200055935729725
                  71636269561882670428252483600823257530420752963450"""
-    max_num = 0
 
-    for i, _ in enumerate(numbers):
-        if i <= len(numbers) - 13 and numbers[i:i + 13].isdigit():
+    list_numbers = [i for i in numbers if i not in ['\n', ' ']]
+    max_num = 0
+    for i in range(len(list_numbers)):
+        if i <= len(list_numbers)-13:
             res = 1
-            for j in numbers[i:i + 13]:
+            for j in list_numbers[i:13+i]:
                 res *= int(j)
             if res > max_num:
                 max_num = res
     return max_num
+
 
 
 if __name__ == '__main__':
