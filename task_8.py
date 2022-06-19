@@ -30,14 +30,13 @@ def task_8():
     list_numbers = [i for i in numbers if i not in ['\n', ' ']]
     max_num = 0
     for i in range(len(list_numbers)):
-        if i <= len(list_numbers)-13:
+        if i <= len(list_numbers) - 13:
             res = 1
-            for j in list_numbers[i:13+i]:
+            for j in list_numbers[i:13 + i]:
                 res *= int(j)
             if res > max_num:
                 max_num = res
     return max_num
-
 
 
 if __name__ == '__main__':
