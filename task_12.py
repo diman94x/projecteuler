@@ -8,6 +8,7 @@
 
 def task_12():
     "Функция решения задачи проекта Эейлера №12"
+
     numbers_range = (int(0.5 * n * (n + 1)) for n in range(20000))
 
     def is_prime_number(num):
