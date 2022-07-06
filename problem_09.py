@@ -5,7 +5,7 @@ a**2 + b**2 = c**2
 Найдите произведение abc."""
 
 
-def task_9():
+def problem_9():
     "Функция решения задачи проекта Эейлера №9"
 
     num_list = ([a, b, int((a ** 2 + b ** 2) ** 0.5)] for a in range(1, 1000)
@@ -18,4 +18,4 @@ def task_9():
 
 
 if __name__ == '__main__':
-    print(task_9())
+    print(problem_9())

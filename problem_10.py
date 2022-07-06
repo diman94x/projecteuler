@@ -2,7 +2,7 @@
    Найдите сумму всех простых чисел меньше двух миллионов."""
 
 
-def task_10():
+def problem_10():
     "Функция решения задачи проекта Эейлера №10"
 
     def is_prime_number(num):
@@ -19,4 +19,4 @@ def task_10():
     return sum(simply_numbers)
 
 if __name__ == '__main__':
-    print(task_10())
+    print(problem_10())
