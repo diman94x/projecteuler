@@ -26,7 +26,6 @@ def problem_34():
             current_number += factorial(int(n))
         if i == current_number:
             result.append(i)
-            print(i)
 
     return result
 
