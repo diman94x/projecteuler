@@ -16,5 +16,6 @@ def problem_36():
 
     return sum((i for i in range(1, 1_000_001) if is_palindrome(str(i)) is True))
 
+
 if __name__ == '__main__':
     print(problem_36())
