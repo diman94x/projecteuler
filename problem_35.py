@@ -7,7 +7,6 @@
 
 def problem_35():
     "Функция решения задачи проекта Эейлера №35"
-    num = '12345'
 
     def prime_number_list(num):
         lst = [2]
